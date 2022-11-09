@@ -5,7 +5,7 @@ const adminRouter = require('./routes/admin');
 const productRouter = require("./routes/product");
 const userRouter = require("./routes/user");
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 const app = express();
 const DB = "mongodb+srv://practice:practice@cluster0.ahcvvyg.mongodb.net/?retryWrites=true&w=majority"
 
